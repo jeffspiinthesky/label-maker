@@ -1,0 +1,3 @@
+deb http://legacy.raspbian.org/raspbian jessie main contrib non-free rpi firmware
+#deb-src http://legacy.raspbian.org/raspbian jessie main contrib non-free rpi firmware
+#deb http://legacy.raspbian.org/debian jessie main

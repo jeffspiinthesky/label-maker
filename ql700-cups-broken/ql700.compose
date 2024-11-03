@@ -1,0 +1,12 @@
+services:
+  ql700:
+    container_name: ql700-cups
+    image: pits/ql700-cups:0.0.1
+    devices:
+      - /dev/usb/lp0
+      - /dev/bus/usb
+    volumes:
+      - /home/pi/src/ql700:/tmp/pics
+      - /sys/bus:/sys/bus
+    ports:
+      - 631:631
